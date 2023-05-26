@@ -1,4 +1,4 @@
-# Hasse Diagram and an Apllication of Partial Ordrer Relations
+# Hasse Diagram and an Application of Partial Ordrer Relations
 This repository contains a Python program to draw the Hasse Diagram of a partial order relation and a markdown file discussing a Job Scheduling Problem.
 
 ## Job Scheduling Problem
