@@ -40,3 +40,8 @@ The program will prompt you to enter all ordered pairs separated by spaces. For 
 `Enter all ordered pairs separated by spaces: (1,1) (1,2) (2,2) (2,3) (3,3)`
 
 The program will check if the relation is partial order. If it is, Hasse diagram for the relation will be drawn on the screen. If the relation is not partial order, then the program will prompt the user again to enter the ordered pairs.
+
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
