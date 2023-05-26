@@ -29,6 +29,7 @@ Let $\mathbb{T}$ be the set of all tasks, and consider the partial order relatio
 $$x \preceq y \iff x = y \quad \vee \quad  x \enspace \text{precedes} \enspace y.$$
 
 If the Hasse diagram of this relation is turned sideways, it has the appearance shown below:
+![Task Diagram](task_diagram.jpeg)
 
 
 
@@ -41,14 +42,15 @@ Now, let's determine the time required for task $5$. Tasks $2$ and $3$ must be c
 
 
 Using the same reasoning, we find that the minimum times for task $4$, $6$, $7$, $8$, and $9$ are $19$, $20$, $14$, $21$, and $26$ hours, respectively. These values are placed above the corresponding boxes, as shown in the diagram below:
-
+![Task Diagram with time for each task](task_diagram_time.jpeg)
 
 
 
 This analysis shows that at least $26$ hours are required to complete task $9$ starting from the
 beginning of the assembly process. When task $9$ is finished, the assembly is complete, so
-$26$ **hours is the minimum time needed to accomplish the whole process.**
-also note that the minimum time required to complete tasks $1$, $2$, $4$, $8$, and $9$ in sequence is
+$26$ **hours is the minimum time needed to accomplish the whole process.** This means that no matter how we schedule the tasks, we cannot finish the assembly in less than $26$ hours. However, this does not mean that we have to use exactly $26$ hours. We can use more time if we want to, as long as we respect the order of the tasks and their durations. For example, we can delay task $7$ until task $8$ is done, and still finish the assembly in $26$ hours. This would give us some flexibility in case of unexpected delays or problems. However, we cannot start task $7$ before task $2$ and task $3$ are done, or start task $9$ before task $6$, task $7$ and task $8$ are done. These are the constraints imposed by the partial order relation.
+
+Also note that the minimum time required to complete tasks $1$, $2$, $4$, $8$, and $9$ in sequence is
 exactly $26$ hours. This means that a delay in performing any one of these tasks causes a
 delay in the total time required for assembly of the car. For this reason, the path through
 tasks $1$, $2$, $4$, $8$, and $9$ is called a critical path.
