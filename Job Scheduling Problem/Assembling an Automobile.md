@@ -54,3 +54,12 @@ Also note that the minimum time required to complete tasks $1$, $2$, $4$, $8$, a
 exactly $26$ hours. This means that a delay in performing any one of these tasks causes a
 delay in the total time required for assembly of the car. For this reason, the path through
 tasks $1$, $2$, $4$, $8$, and $9$ is called a critical path.
+
+
+***
+#### References
+
+[1] _Susanna S. Epp, Discrete Mathematics with Applications, Cengage, 2020_.
+
+[2] _MIT OpenCourseWare, Mathematics for Computer Science_, [_6.042_.](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/ "Go to MIT OCW 6.042")
+
